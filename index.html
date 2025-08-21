@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tech – Hive</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html"><span class="text-primary">Tech</span> <span
+          class="text-danger">Hive</span></a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span
+          class="navbar-toggler-icon"></span></button>
+      <div id="nav" class="collapse text-bold navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="vendor_gallery.html">Various Vendors</a></li>
+          <li class="nav-item"><a class="nav-link" href="vendor_management.html">Be a vendor</a></li>
+          <li class="nav-item"><a class="nav-link" href="checkout.html">Cart</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-4">
+    <!-- Hero -->
+    <section class="hero p-4 p-lg-5 mb-4">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <h1 class="display-5 mb-3">Your Hub for Cutting-Edge Technology.</h1>
+          <p class="lead">From ideas to reality, we empower businesses and individuals to thrive in a digital world.
+            Join us, and experience a hub where technology, collaboration, and imagination converge.</p>
+          <div class="d-flex gap-3">
+            <a href="vendor_gallery.html" class="btn btn-primary px-4">Browse Gallery</a>
+            <a href="vendor_management.html" class="btn btn-outline-secondary px-4">Become a Vendor</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div id="featureCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner rounded-4 overflow-hidden">
+              <div class="carousel-item active"><img src="img/hi.webp" class="d-block w-100" alt=""></div>
+              <div class="carousel-item"><img src="img/hi.webp" class="d-block w-100" alt=""></div>
+              <div class="carousel-item"><img src="img/hi.webp" class="d-block w-100" alt=""></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#featureCarousel"
+              data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#featureCarousel"
+              data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured cards -->
+    <section class="py-3">
+      <header class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="h4 mb-0">Tech Collections</h2>
+        <a href="vendor_gallery.html" class="btn btn-sm btn-outline-primary">View all</a>
+      </header>
+      <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100">
+            <img src="img/key.jpg" class="card-img-top img-thumb" alt="">
+            <div class="card-body">
+              <span class="badge badge-soft mb-2">Vendor 1</span>
+              <h5 class="card-title">Wearable Wonders</h5>
+              <p class="card-text text-secondary small">Discover smart tech that literally wears technology with you.
+                From AI-powered wearables to sleek smartwatches and health rings.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-semibold">$ 20.00</span>
+                <a href="item_details.html#item1" class="btn btn-sm btn-accent">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100">
+            <img src="img/smart.webp" class="card-img-top img-thumb" alt="">
+            <div class="card-body">
+              <span class="badge badge-soft mb-2">Vendor 2</span>
+              <h5 class="card-title">Smart Living Hub</h5>
+              <p class="card-text text-secondary small">Upgrade your home with interconnected devices that automate and
+                simplify daily tasks.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-semibold">$ 40.00</span>
+                <a href="item_details.html#item2" class="btn btn-sm btn-accent">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100">
+            <img src="img/health.jpg" class="card-img-top img-thumb" alt="">
+            <div class="card-body">
+              <span class="badge badge-soft mb-2">Vendor 3</span>
+              <h5 class="card-title">Sound & Vision</h5>
+              <p class="card-text text-secondary small">Immerse yourself in next-level media: portable projectors, AR
+                glasses, and high-fidelity audio.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-semibold">$ 60.00</span>
+                <a href="item_details.html#item3" class="btn btn-sm btn-accent">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100">
+            <img src="img/eco.webp" class="card-img-top img-thumb" alt="">
+            <div class="card-body">
+              <span class="badge badge-soft mb-2">Vendor 4</span>
+              <h5 class="card-title">Eco-Tech Picks</h5>
+              <p class="card-text text-secondary small">Showcasing sustainable innovation: solar-powered gadgets,
+                biodegradable materials, and eco-conscious tech designs.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-semibold">$ 80.00</span>
+                <a href="item_details.html#item4" class="btn btn-sm btn-accent">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-5 mt-5">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-6">
+          <h5 class="fw-bold">Tech Hive</h5>
+          <p class="mb-0">A Platform for Discovering and Buying Cutting-Edge Tech Gadgets from Independent Innovators
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h6 class="fw-semibold">Explore</h6>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vendor_gallery.html">Vendors</a></li>
+            <li><a href="checkout.html">Cart</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6 class="fw-semibold">Contact</h6>
+          <p class="mb-0">hello@tech-hive.com</p>
+        </div>
+      </div>
+      <hr class="border-secondary-subtle my-4">
+      <p class="text-center small mb-0">© 2025 Tech Hive Copyright</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
