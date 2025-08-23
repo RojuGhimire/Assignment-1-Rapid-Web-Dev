@@ -4,13 +4,13 @@
 *{ box-sizing:border-box; }
 body{
   font-family:"Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial;
-  color:#1d2330;
+  color:#b7becd;
   background:#f7f8fb;
 }
-.navbar{ box-shadow:0 10px 20px rgba(0,0,0,.06); }
+.navbar{ box-shadow:0 10px 20px rgba(222, 219, 219, 0.06); }
 
 .hero{
-  background:linear-gradient(135deg, rgba(0,27,106,.06), rgba(203,32,38,.06));
+  background: rgb(40, 39, 39);
   border-radius:1.5rem;
 }
 .hero .display-5{ font-weight:700; }
@@ -20,8 +20,9 @@ body{
 
 .card{
   border:none; border-radius:1rem; overflow:hidden;
-  box-shadow:0 6px 24px rgba(0,0,0,.06);
+  box-shadow:0 6px 24px rgba(131, 128, 128, 0.06);
   transition:transform .2s ease, box-shadow .2s ease;
+  background-color: #3e3f44;
 }
 .card:hover{ transform:translateY(-4px); box-shadow:0 12px 36px rgba(0,0,0,.10); }
 
@@ -29,7 +30,7 @@ body{
 
 .img-thumb{ height:240px; object-fit:cover; }
 
-footer{ background:#0b0e1a; color:#c8d0e0; }
+footer{ background:#07070a; color:#c8d0e0; }
 footer a{ color:#c8d0e0; text-decoration:none; }
 
 .form-control:focus,.form-select:focus,.btn:focus{

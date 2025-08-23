@@ -10,31 +10,59 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+    <style>
+    body { background: #0f172a; }
+    .page-title { color: #e2e8f0; }
+    .subtitle { color: #94a3b8; }
+    .card { border: 0; border-radius: 1rem; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,.25); background: #0b1222; }
+    .card-img-top { height: 180px; object-fit: cover; }
+    .card-title { color: #f8fafc; }
+    .card-text { color: #cbd5e1; }
+    .badge-th { background: linear-gradient(90deg,#2563eb,#ef4444); }
+    .footer-note { color:#94a3b8; }
+  </style>
 </head>
 <body>
   <!-- Nav -->
-  <nav class="navbar navbar-expand-lg bg-white sticky-top">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html"><span class="text-primary">Tech</span> <span
-          class="text-danger">Hive</span></a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link" href="vendor_gallery.html">Various Vendors Gallery</a></li>
-          <li class="nav-item"><a class="nav-link" href="vendor_management.html">Add Item</a></li>
-          <li class="nav-item"><a class="nav-link" href="checkout.html">Cart</a></li>
-        </ul>
+<nav class="navbar navbar-expand-lg bg-black sticky-top">
+  <div class="container">
+    <!-- Brand -->
+    <a class="navbar-brand fw-bold" href="index.html">
+      <span class="text-primary">Tech</span> <span class="text-danger">Hive</span>
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapse Menu -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="vendor_gallery.html">Various Vendors Gallery</a>
         </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="vendor_management.html">Add Item</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="checkout.html">Cart</a>
+        </li>
+      </ul>
+
+      <!-- Search Form -->
+      <form class="d-flex ms-lg-3 mt-2 mt-lg-0">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary" type="submit">Search</button>
+      </form>
     </div>
-  </nav>
+  </div>
+</nav>
+
   <main class="container my-4">
     <!-- Hero -->
-    <section class="hero p-4 p-lg-5 mb-4">
+    <section class="hero p-4  p-lg-5 mb-4">
       <div class="row align-items-center g-4">
         <div class="col-lg-6">
           <h1 class="display-5 mb-3">Your Hub for Cutting-Edge Technology.</h1>
@@ -42,7 +70,7 @@
             Join us, and experience a hub where technology, collaboration, and imagination converge.</p>
           <div class="d-flex gap-3">
             <a href="vendor_gallery.html" class="btn btn-primary px-4">Browse Gallery</a>
-            <a href="vendor_management.html" class="btn btn-outline-secondary px-4">Become a Vendor</a>
+            <a href="vendor_management.html" class="btn btn-outline-secondary bg-black px-4">Become a Vendor</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -64,14 +92,14 @@
     <!-- Featured cards -->
     <section class="py-3">
       <header class="d-flex justify-content-between align-items-center mb-3">
-        <h2 class="h4 mb-0">Tech Collections</h2>
-        <a href="vendor_gallery.html" class="btn btn-sm btn-outline-primary">View all</a>
+        <h2 class="h4 text-white mb-0">Tech Collections</h2>
+        <a href="vendor_gallery.html" class="btn btn-sm text-white bg-black btn-outline-primary">View all</a>
       </header>
       <div class="row g-4">
 
         <!-- Card 1 -->
         <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100">
+          <div class="card  h-100" style="background-color: #151e31;">
             <img src="img/key.jpg" class="card-img-top img-thumb" alt="">
             <div class="card-body">
               <span class="badge badge-soft mb-2">Vendor 1</span>
@@ -79,7 +107,7 @@
               <p class="card-text text-secondary small">Discover smart tech that literally wears technology with you.
                 From AI-powered wearables to sleek smartwatches and health rings.</p>
               <div class="d-flex justify-content-between align-items-center">
-                <span class="fw-semibold">$ 2000.00</span>
+                <span class="fw-semibold text-white">$ 2000.00</span>
                 <a href="item_details.html#item1" class="btn btn-sm btn-accent">View</a>
               </div>
             </div>
@@ -88,7 +116,7 @@
 
         <!-- Card 2 -->
         <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100">
+          <div class="card h-100" style=background-color:#151e31;>
             <img src="img/smart.webp" class="card-img-top img-thumb" alt="">
             <div class="card-body">
               <span class="badge badge-soft mb-2">Vendor 2</span>
@@ -105,7 +133,7 @@
 
         <!-- Card 3 -->
         <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100">
+          <div class="card h-100" style="background-color: #151e31">
             <img src="img/health.jpg" class="card-img-top img-thumb" alt="">
             <div class="card-body">
               <span class="badge badge-soft mb-2">Vendor 3</span>
@@ -122,7 +150,7 @@
 
         <!-- Card 4 -->
         <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100">
+          <div class="card h-100"style="background-color: #151e31;>
             <img src="img/eco.webp" class="card-img-top img-thumb" alt="">
             <div class="card-body">
               <span class="badge badge-soft mb-2">Vendor 4</span>
@@ -138,7 +166,7 @@
         </div>
         <!-- Card 5 -->
         <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100">
+          <div class="card h-100"style="background-color: #151e31;>
             <img src="img/eco.webp" class="card-img-top img-thumb" alt="">
             <div class="card-body">
               <span class="badge badge-soft mb-2">Vendor 4</span>
