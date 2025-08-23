@@ -10,55 +10,87 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-    <style>
-    body { background: #0f172a; }
-    .page-title { color: #e2e8f0; }
-    .subtitle { color: #94a3b8; }
-    .card { border: 0; border-radius: 1rem; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,.25); background: #0b1222; }
-    .card-img-top { height: 180px; object-fit: cover; }
-    .card-title { color: #f8fafc; }
-    .card-text { color: #cbd5e1; }
-    .badge-th { background: linear-gradient(90deg,#2563eb,#ef4444); }
-    .footer-note { color:#94a3b8; }
+  <style>
+    body {
+      background: #0f172a;
+    }
+
+    .page-title {
+      color: #e2e8f0;
+    }
+
+    .subtitle {
+      color: #94a3b8;
+    }
+
+    .card {
+      border: 0;
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
+      background: #0b1222;
+    }
+
+    .card-img-top {
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-title {
+      color: #f8fafc;
+    }
+
+    .card-text {
+      color: #cbd5e1;
+    }
+
+    .badge-th {
+      background: linear-gradient(90deg, #2563eb, #ef4444);
+    }
+
+    .footer-note {
+      color: #94a3b8;
+    }
   </style>
 </head>
+
 <body>
   <!-- Nav -->
-<nav class="navbar navbar-expand-lg bg-black sticky-top">
-  <div class="container">
-    <!-- Brand -->
-    <a class="navbar-brand fw-bold" href="index.html">
-      <span class="text-primary">Tech</span> <span class="text-danger">Hive</span>
-    </a>
+  <nav class="navbar navbar-expand-lg bg-black sticky-top">
+    <div class="container">
+      <!-- Brand -->
+      <a class="navbar-brand fw-bold" href="index.html">
+        <span class="text-primary">Tech</span> <span class="text-danger">Hive</span>
+      </a>
 
-    <!-- Toggler -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Collapse Menu -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link text-white" href="vendor_gallery.html">Various Vendors Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="vendor_management.html">Add Item</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="checkout.html">Cart</a>
-        </li>
-      </ul>
+      <!-- Collapse Menu -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="vendor_gallery.html">Various Vendors Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="vendor_management.html">Add Item</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="checkout.html">Cart</a>
+          </li>
+        </ul>
 
-      <!-- Search Form -->
-      <form class="d-flex ms-lg-3 mt-2 mt-lg-0">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-primary" type="submit">Search</button>
-      </form>
+        <!-- Search Form -->
+        <form class="d-flex ms-lg-3 mt-2 mt-lg-0">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
   <main class="container my-4">
     <!-- Hero -->
@@ -124,7 +156,7 @@
               <p class="card-text text-secondary small">Upgrade your home with interconnected devices that automate and
                 simplify daily tasks.</p>
               <div class="d-flex justify-content-between align-items-center">
-                <span class="fw-semibold">$ 40500.00</span>
+                <span class="fw-semibold text-white">$ 40500.00</span>
                 <a href="item_details.html#item2" class="btn btn-sm btn-accent">View</a>
               </div>
             </div>
@@ -141,7 +173,7 @@
               <p class="card-text text-secondary small">Immerse yourself in next-level media: portable projectors, AR
                 glasses, and high-fidelity audio.</p>
               <div class="d-flex justify-content-between align-items-center">
-                <span class="fw-semibold">$ 6000.00</span>
+                <span class="fw-semibold text-white">$ 6000.00</span>
                 <a href="item_details.html#item3" class="btn btn-sm btn-accent">View</a>
               </div>
             </div>
@@ -150,7 +182,7 @@
 
         <!-- Card 4 -->
         <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100"style="background-color: #151e31;>
+          <div class="card h-100" style="background-color: #151e31">
             <img src="img/eco.webp" class="card-img-top img-thumb" alt="">
             <div class="card-body">
               <span class="badge badge-soft mb-2">Vendor 4</span>
@@ -158,24 +190,24 @@
               <p class="card-text text-secondary small">Showcasing sustainable innovation: solar-powered gadgets,
                 biodegradable materials, and eco-conscious tech designs.</p>
               <div class="d-flex justify-content-between align-items-center">
-                <span class="fw-semibold">$ 8005.00</span>
-                <a href="item_details.html#item4" class="btn btn-sm btn-accent">View</a>
+                <span class="fw-semibold text-white">$ 6000.00</span>
+                <a href="item_details.html#item3" class="btn btn-sm btn-accent">View</a>
               </div>
             </div>
           </div>
         </div>
-        <!-- Card 5 -->
+
         <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100"style="background-color: #151e31;>
-            <img src="img/eco.webp" class="card-img-top img-thumb" alt="">
+          <div class="card  h-100" style="background-color: #151e31;">
+            <img src="img/next.jpg" class="card-img-top img-thumb" alt="">
             <div class="card-body">
-              <span class="badge badge-soft mb-2">Vendor 4</span>
-              <h5 class="card-title">Eco-Tech Picks</h5>
-              <p class="card-text text-secondary small">Showcasing sustainable innovation: solar-powered gadgets,
-                biodegradable materials, and eco-conscious tech designs.</p>
+              <span class="badge badge-soft mb-2">Vendor 1</span>
+              <h5 class="card-title">NextGen Innovators</h5>
+              <p class="card-text text-secondary small">NextGen Innovators is a forward-thinking vendor specializing in
+                AI-driven applications and automation solutions. </p>
               <div class="d-flex justify-content-between align-items-center">
-                <span class="fw-semibold">$ 8005.00</span>
-                <a href="item_details.html#item5" class="btn btn-sm btn-accent">View</a>
+                <span class="fw-semibold text-white">$ 2000.00</span>
+                <a href="item_details.html#item1" class="btn btn-sm btn-accent">View</a>
               </div>
             </div>
           </div>
